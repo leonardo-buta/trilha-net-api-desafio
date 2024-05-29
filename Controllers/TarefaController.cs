@@ -6,6 +6,8 @@ namespace TrilhaApiDesafio.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+
+    //Criar a migrations
     public class TarefaController : ControllerBase
     {
         private readonly OrganizadorContext _context;
